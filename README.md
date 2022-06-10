@@ -9,3 +9,4 @@ TT- Technologies and Techniques:
 - TDD Process
 - SOLID and Clean Code Principles
 - Visual Studio 2019
+- Azure 
