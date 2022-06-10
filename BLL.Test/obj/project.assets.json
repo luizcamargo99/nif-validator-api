@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net5.0": {
       "coverlet.collector/3.0.2": {
         "type": "package",
         "build": {
@@ -1718,7 +1718,7 @@
       },
       "BLL/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
           "bin/placeholder/BLL.dll": {}
         },
@@ -6007,7 +6007,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net5.0": [
       "BLL >= 1.0.0",
       "FluentAssertions >= 6.5.1",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
@@ -6024,11 +6024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\BLL.Test.csproj",
+      "projectUniqueName": "C:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\BLL.Test.csproj",
       "projectName": "BLL.Test",
-      "projectPath": "c:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\BLL.Test.csproj",
+      "projectPath": "C:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\BLL.Test.csproj",
       "packagesPath": "C:\\Users\\Luiz\\.nuget\\packages\\",
-      "outputPath": "c:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\obj\\",
+      "outputPath": "C:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6038,18 +6038,18 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL\\BLL.csproj": {
-              "projectPath": "c:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL\\BLL.csproj"
+            "C:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL\\BLL.csproj"
             }
           }
         }
@@ -6061,8 +6061,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "FluentAssertions": {
             "target": "Package",
@@ -6108,7 +6108,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "75w1guoBYYoGd3502eVXQCW0imcVVhPXSpH6sCHNyg43dKrKZFqD26/anDxe87JlbFXWcQoVn8K0/5g37Xm91Q==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\API\\API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luiz\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

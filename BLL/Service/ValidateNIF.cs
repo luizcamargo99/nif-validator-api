@@ -7,7 +7,7 @@ namespace BLL.Service
 {
     public class ValidateNIF
     {
-        private string _nif;
+        private readonly string _nif;
 
         public ValidateNIF(string nif) 
         {
@@ -24,9 +24,9 @@ namespace BLL.Service
 
                 List<int> digitsNif = _nif.Select(x => Convert.ToInt32(x.ToString())).ToList();
 
-                response.Type = GetType(digitsNif);
-
                 response.IsValid = ValidateControlDigit(digitsNif);
+
+                response.Type = GetType(digitsNif);
 
             }
             catch (Exception ex)
@@ -61,6 +61,7 @@ namespace BLL.Service
             {
                 return "Legal Person";
             }            
+
             return "Unidentified type";
         }
 
@@ -70,7 +71,7 @@ namespace BLL.Service
             + digitsNif[3] * 6 + digitsNif[2] * 7 + digitsNif[1] * 8 + digitsNif[0] * 9;
 
             int divisionRest = calculateDigits % 11;
-            
+
             int lastDigitHasToBe = divisionRest <= 1 ? 0 : 11 - divisionRest;
 
             if (digitsNif[8] != lastDigitHasToBe)

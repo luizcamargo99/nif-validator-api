@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL.Test", "BLL.Test\BLL.Test.csproj", "{E724E0B2-D371-4DAE-A463-E00A2E923B29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{1F6C1BFE-6E90-43A7-A5D9-C0282B4EECFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{1F6C1BFE-6E90-43A7-A5D9-C0282B4EECFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{5C871BB1-E494-4075-8840-14DC36CA1139}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1F6C1BFE-6E90-43A7-A5D9-C0282B4EECFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F6C1BFE-6E90-43A7-A5D9-C0282B4EECFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F6C1BFE-6E90-43A7-A5D9-C0282B4EECFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C871BB1-E494-4075-8840-14DC36CA1139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C871BB1-E494-4075-8840-14DC36CA1139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C871BB1-E494-4075-8840-14DC36CA1139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C871BB1-E494-4075-8840-14DC36CA1139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
