@@ -18,47 +18,16 @@ namespace BLL.Service
         {
             Response response = new Response();
 
-            try 
+            try
             {
-                if (_nif == null) 
-                {
-                    throw new ArgumentException("The NIF value is null");
-                }
-
-                if (_nif.Length != 9) 
-                {
-                    throw new ArgumentException("The NIF length is incorrect");
-                }
+                InitialValidation();
 
                 List<int> digitsNif = _nif.Select(x => Convert.ToInt32(x.ToString())).ToList();
 
-                if (digitsNif[0] == 1 || digitsNif[0] == 2) 
-                {
-                    response.Type = "Single Person";
-                }
-                else if (digitsNif[0] == 5) 
-                {
-                    response.Type = "Legal Person";
-                }
-                else 
-                {
-                    throw new ArgumentException("The NIF is invalid");
-                }
+                response.Type = GetType(digitsNif);
 
-                int calculateDigits = digitsNif[7] * 2 + digitsNif[6] * 3 + digitsNif[5] * 4 + digitsNif[4] * 5 
-                + digitsNif[3] * 6 + digitsNif[2] * 7 + digitsNif[1] * 8 + digitsNif[0] * 9;
+                response.IsValid = ValidateControlDigit(digitsNif);
 
-                int divisionRest = calculateDigits % 11;
-                int lastDigitHasToBe = divisionRest <= 1 ? 0 : 11 - divisionRest;
-
-                if (digitsNif[8] == lastDigitHasToBe) {
-                    response.IsValid = true;
-                }
-                else 
-                {
-                    throw new ArgumentException("The NIF is invalid");
-                }        
-                
             }
             catch (Exception ex)
             {
@@ -67,6 +36,49 @@ namespace BLL.Service
             }            
 
             return response;            
+        }
+
+        private void InitialValidation()
+        {
+            if (_nif == null)
+            {
+                throw new ArgumentException("The NIF value is null");
+            }
+
+            if (_nif.Length != 9)
+            {
+                throw new ArgumentException("The NIF length is incorrect");
+            }
+        }
+
+        private string GetType(List<int> digitsNif) 
+        {
+            if (digitsNif[0] == 1 || digitsNif[0] == 2)
+            {
+                return "Single Person";
+            }
+            else if (digitsNif[0] == 5)
+            {
+                return "Legal Person";
+            }            
+            return "Unidentified type";
+        }
+
+        private bool ValidateControlDigit(List<int> digitsNif)
+        {
+            int calculateDigits = digitsNif[7] * 2 + digitsNif[6] * 3 + digitsNif[5] * 4 + digitsNif[4] * 5
+            + digitsNif[3] * 6 + digitsNif[2] * 7 + digitsNif[1] * 8 + digitsNif[0] * 9;
+
+            int divisionRest = calculateDigits % 11;
+            
+            int lastDigitHasToBe = divisionRest <= 1 ? 0 : 11 - divisionRest;
+
+            if (digitsNif[8] != lastDigitHasToBe)
+            {
+                throw new ArgumentException("The NIF is invalid");
+            }
+
+            return true;
         }
     }
 }
