@@ -6,7 +6,7 @@ using BLL.Model;
 
 namespace BLL.Test
 {
-    public class TestValidateNIFFail
+    public class TestFailValidateNIF
     {      
         [Theory(DisplayName = "Fail Test for NIF validation")]
         [InlineData("137761512", false)]

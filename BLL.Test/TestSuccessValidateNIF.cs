@@ -6,7 +6,7 @@ using BLL.Service;
 
 namespace BLL.Test
 {
-    public class TestValidateNIFSuccess
+    public class TestSuccessValidateNIF
     {
         [Theory(DisplayName = "Success Test for NIF validation ")]
         [InlineData("246711752", true)]
