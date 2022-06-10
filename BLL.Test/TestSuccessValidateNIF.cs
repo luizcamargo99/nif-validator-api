@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 using FluentAssertions;
 using BLL.Model;
@@ -8,7 +7,7 @@ namespace BLL.Test
 {
     public class TestSuccessValidateNIF
     {
-        [Theory(DisplayName = "Success Test for NIF validation ")]
+        [Theory(DisplayName = "Success Test for NIF validation")]
         [InlineData("246711752", true)]
         [InlineData("216574749", true)]
         public void TestValidateNIF(string nif, bool resultExpected)
