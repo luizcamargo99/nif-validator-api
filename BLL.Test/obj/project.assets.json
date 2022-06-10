@@ -1715,6 +1715,16 @@
         "build": {
           "build/netstandard1.5/XunitXml.TestLogger.props": {}
         }
+      },
+      "BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.dll": {}
+        }
       }
     }
   },
@@ -5989,10 +5999,16 @@
         "xunitxml.testlogger.3.0.70.nupkg.sha512",
         "xunitxml.testlogger.nuspec"
       ]
+    },
+    "BLL/1.0.0": {
+      "type": "project",
+      "path": "../BLL/BLL.csproj",
+      "msbuildProject": "../BLL/BLL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BLL >= 1.0.0",
       "FluentAssertions >= 6.5.1",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "XunitXml.TestLogger >= 3.0.70",
@@ -6031,7 +6047,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL\\BLL.csproj": {
+              "projectPath": "c:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL\\BLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

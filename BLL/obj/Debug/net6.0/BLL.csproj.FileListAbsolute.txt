@@ -1,0 +1,12 @@
+c:\Projetos Academicos\NIF Validator\NIF Validator Web Service\src\BLL\bin\Debug\net6.0\BLL.deps.json
+c:\Projetos Academicos\NIF Validator\NIF Validator Web Service\src\BLL\bin\Debug\net6.0\BLL.dll
+c:\Projetos Academicos\NIF Validator\NIF Validator Web Service\src\BLL\bin\Debug\net6.0\BLL.pdb
+c:\Projetos Academicos\NIF Validator\NIF Validator Web Service\src\BLL\obj\Debug\net6.0\BLL.csproj.AssemblyReference.cache
+c:\Projetos Academicos\NIF Validator\NIF Validator Web Service\src\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+c:\Projetos Academicos\NIF Validator\NIF Validator Web Service\src\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+c:\Projetos Academicos\NIF Validator\NIF Validator Web Service\src\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+c:\Projetos Academicos\NIF Validator\NIF Validator Web Service\src\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+c:\Projetos Academicos\NIF Validator\NIF Validator Web Service\src\BLL\obj\Debug\net6.0\BLL.dll
+c:\Projetos Academicos\NIF Validator\NIF Validator Web Service\src\BLL\obj\Debug\net6.0\refint\BLL.dll
+c:\Projetos Academicos\NIF Validator\NIF Validator Web Service\src\BLL\obj\Debug\net6.0\BLL.pdb
+c:\Projetos Academicos\NIF Validator\NIF Validator Web Service\src\BLL\obj\Debug\net6.0\ref\BLL.dll

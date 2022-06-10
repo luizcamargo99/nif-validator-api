@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T5Oxmw+WAPEeqqYjc72I/bT97Z6CyHQGE6SpdAWAtexifL1s6xZuZVjY14UEOazxKzuWbiVrkO3XvRakl463Sw==",
+  "dgSpecHash": "lrs/BwCjHRCt4PO4j5uMGqr1c3KyVpfG5BBobtFIlEdZ1Cl0PV0Pttp7zCfcKE6mi3rBA0ms7dTkttTqBJ1XfA==",
   "success": true,
   "projectFilePath": "c:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\BLL.Test.csproj",
   "expectedPackageFiles": [
