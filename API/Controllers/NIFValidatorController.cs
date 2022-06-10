@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("Validate")]
     public class NIFValidatorController : ControllerBase
     {      
         [HttpGet]
