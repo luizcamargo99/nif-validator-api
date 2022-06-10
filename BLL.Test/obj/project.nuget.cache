@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fDORLxCRiYvJbfsE/7Xu1un6UhBBC3gOwx6h2AAJlCvjC9xrtzZGGCLA4AcB6HyD4MQnEPmGqQue2HUPLHUiZw==",
+  "dgSpecHash": "T5Oxmw+WAPEeqqYjc72I/bT97Z6CyHQGE6SpdAWAtexifL1s6xZuZVjY14UEOazxKzuWbiVrkO3XvRakl463Sw==",
   "success": true,
-  "projectFilePath": "C:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\BLL.Test.csproj",
+  "projectFilePath": "c:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\BLL.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luiz\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\fluentassertions\\6.5.1\\fluentassertions.6.5.1.nupkg.sha512",

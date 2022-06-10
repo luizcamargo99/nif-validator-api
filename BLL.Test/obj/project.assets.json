@@ -6008,11 +6008,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\BLL.Test.csproj",
+      "projectUniqueName": "c:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\BLL.Test.csproj",
       "projectName": "BLL.Test",
-      "projectPath": "C:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\BLL.Test.csproj",
+      "projectPath": "c:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\BLL.Test.csproj",
       "packagesPath": "C:\\Users\\Luiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\obj\\",
+      "outputPath": "c:\\Projetos Academicos\\NIF Validator\\NIF Validator Web Service\\src\\BLL.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
