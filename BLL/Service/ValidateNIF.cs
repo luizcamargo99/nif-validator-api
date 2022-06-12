@@ -53,14 +53,7 @@ namespace BLL.Service
 
         private string GetType(List<int> digitsNif) 
         {
-            List<int> firstDigitsSinglePeson = new List<int>
-            {
-                1,
-                2,
-                3
-            };
-
-            if (firstDigitsSinglePeson.Contains(digitsNif[0]))
+            if (Enumerable.Range(1,3).Contains(digitsNif[0]))
             {
                 return "Single Person";
             }
