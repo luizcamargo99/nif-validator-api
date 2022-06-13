@@ -8,6 +8,8 @@ namespace BLL.Service
     public class ValidateNIF
     {
         private readonly string _nif;
+        private readonly int _divisionNumber = 11;
+        private readonly int _lengthNif = 9;
 
         public ValidateNIF(string nif) 
         {
@@ -15,7 +17,7 @@ namespace BLL.Service
         }
 
         public Response Action () 
-        {
+        {   
             Response response = new Response();
 
             try
@@ -45,7 +47,7 @@ namespace BLL.Service
                 throw new ArgumentException("The NIF value is null");
             }
 
-            if (_nif.Length != 9)
+            if (_nif.Length != _lengthNif)
             {
                 throw new ArgumentException("The NIF length is incorrect");
             }
@@ -70,9 +72,9 @@ namespace BLL.Service
             int calculateDigits = digitsNif[7] * 2 + digitsNif[6] * 3 + digitsNif[5] * 4 + digitsNif[4] * 5
             + digitsNif[3] * 6 + digitsNif[2] * 7 + digitsNif[1] * 8 + digitsNif[0] * 9;
 
-            int divisionRest = calculateDigits % 11;
+            int divisionRest = calculateDigits % _divisionNumber;
 
-            int lastDigitHasToBe = divisionRest <= 1 ? 0 : 11 - divisionRest;
+            int lastDigitHasToBe = divisionRest <= 1 ? 0 : _divisionNumber - divisionRest;
 
             if (digitsNif[8] != lastDigitHasToBe)
             {
