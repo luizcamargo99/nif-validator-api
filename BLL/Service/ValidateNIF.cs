@@ -20,7 +20,7 @@ namespace BLL.Service
 
             try
             {
-                InitialValidation();
+                ValidateNifField();
 
                 List<int> digitsNif = _nif.Select(x => Convert.ToInt32(x.ToString())).ToList();
 
@@ -38,7 +38,7 @@ namespace BLL.Service
             return response;            
         }
 
-        private void InitialValidation()
+        private void ValidateNifField()
         {
             if (_nif == null)
             {
