@@ -19,7 +19,7 @@ namespace BLL.Test
 
         [Theory(DisplayName = "Success Test for validation of single person NIF")]
         [InlineData("246711752", "Single Person")]
-        [InlineData("216574749", "Single Person")]
+        [InlineData("331659212", "Single Person")]
         public void TestValidateNIFSinglePerson(string nif, string resultExpected)
         {
             Response response = new ValidateNIF(nif).Action(); 

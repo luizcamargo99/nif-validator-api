@@ -10,11 +10,11 @@ namespace BLL.Test
         [Theory(DisplayName = "Fail Test for NIF validation")]
         [InlineData("137761512", false)]
         [InlineData("172834679", false)]
-        public void TestValidateNIF(string nif, bool resultUnexpected)
+        public void TestValidateNIF(string nif, bool resultExpected)
         {
             Response response = new ValidateNIF(nif).Action(); 
             
-            response.IsValid.Should().Be(resultUnexpected);
+            response.IsValid.Should().Be(resultExpected);
         }
       
 
